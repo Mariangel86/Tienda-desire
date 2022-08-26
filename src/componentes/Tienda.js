@@ -1,10 +1,12 @@
 import React from "react";
+import Productos from "./Productos";
 
-const Tienda = () => {
+const Tienda = ({productos}) => {
     return (
       
               <div>
                 <h1> Tienda</h1>
+                <Productos productos={productos}/>
                 <p>aqui estara todo el contenido</p>
               </div> 
               
